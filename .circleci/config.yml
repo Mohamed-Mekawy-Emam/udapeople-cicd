@@ -210,16 +210,18 @@ jobs:
 
   run-migrations:
     docker:
-      - image: circleci/node:13.8.0
+      - image: cimg/node:13.8.0
     steps:
       - checkout
+      - install_awscli
       - attach_workspace:
-          at: ~/
+          at: ~/=
       - run:
-          name: Run DB migrations
+          name: Run migrations
           command: |
             cd backend
-            npm run migrations >> migration_output.txt
+            npm install
+            npm run migrations > migration_output.txt
             cat migration_output.txt
       - run:
           name: Store migration result in a file.
@@ -233,6 +235,7 @@ jobs:
           root: ~/
           paths:
             - project/.circleci/outputs/
+
       - destroy-environment
       - revert-migrations    
 
