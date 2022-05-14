@@ -7,3 +7,5 @@
 - [Ansible](https://www.ansible.com/) - Configuration management tool
 - [Prometheus](https://prometheus.io/) - Monitoring tool
 
+### VIP Note
+- On RDS database security group, do not forget to add a security inbound rule to allow postgres database port i.e. 5432  
