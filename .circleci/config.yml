@@ -220,7 +220,6 @@ jobs:
       - image: sleavely/node-awscli:14.x
     steps:
       - checkout
-      - install_awscli
       - restore_cache:
           keys: [backend-deps]
       - run:
