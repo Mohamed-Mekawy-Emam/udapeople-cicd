@@ -8,7 +8,9 @@
   https://d1gf983wlsz8jy.cloudfront.net
 
 4. Public URLs to deployed application back-end in EC2 [URL04]
-  http://35.172.119.188:3030/api/status
+  #http://35.172.119.188:3030/api/status
+  http://52.91.173.23:3030/api/status
 
 5. Public URL to your Prometheus Server [URL05]
-  http:/ec2-18-207-245-185.compute-1.amazonaws.com:9090/
+  #http:/ec2-18-207-245-185.compute-1.amazonaws.com:9090/
+  http://ec2-3-88-130-37.compute-1.amazonaws.com:9090/
