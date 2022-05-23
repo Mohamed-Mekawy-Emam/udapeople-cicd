@@ -2,7 +2,8 @@
   https://github.com/Mohamed-Mekawy-Emam/udapeople-cicd
 
 2. Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
-  http://udapeople-807972d.s3-website-us-east-1.amazonaws.com
+  #http://udapeople-807972d.s3-website-us-east-1.amazonaws.com
+  http://udapeople-835f417.s3-website-us-east-1.amazonaws.com
 
 3. Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
   http://d1gf983wlsz8jy.cloudfront.net
