@@ -12,3 +12,6 @@
 
 5. Public URL to your Prometheus Server [URL05]
   http://ec2-<id>.compute-1.amazonaws.com:9090/
+
+
+  Redeploying as instances get terminated every 6 hr as a clean up process :-(
