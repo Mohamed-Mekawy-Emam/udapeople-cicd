@@ -2,16 +2,18 @@
   https://github.com/Mohamed-Mekawy-Emam/udapeople-cicd
 
 2. Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
-  https://udapeople-<workflowidfirst8digits>.s3.us-east-1.amazonaws.com/
+  #http://udapeople-807972d.s3-website-us-east-1.amazonaws.com  #Please note that this was the pervious deployment bucket yo can verify from cloudformation URL05_SCREENSHOT_1.PNG
+  http://udapeople-835f417.s3-website-us-east-1.amazonaws.com   #Please note that this the current frontend bucket
 
 3. Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
-  https://d1gf983wlsz8jy.cloudfront.net
+  http://d1gf983wlsz8jy.cloudfront.net
 
 4. Public URLs to deployed application back-end in EC2 [URL04]
-  http://ec2publicip:3030/api/status
+  #http://35.172.119.188:3030/api/status #Please note that backend instance restarts every 6 hr
+  #http://52.91.173.23:3030/api/status   #Please note that backend instance restarts every 6 hr 
+  http://54.175.254.229:3030/api/status  #this is the current instance at the time of submission 
 
 5. Public URL to your Prometheus Server [URL05]
-  http://ec2-<id>.compute-1.amazonaws.com:9090/
-
-
-  Redeploying as instances get terminated every 6 hr as a clean up process :-(
+  #http:/ec2-18-207-245-185.compute-1.amazonaws.com:9090/
+  #http://ec2-3-88-130-37.compute-1.amazonaws.com:9090/
+  http://ec2-44-204-63-53.compute-1.amazonaws.com:9090/   #this is the current instance at the time of submission 
